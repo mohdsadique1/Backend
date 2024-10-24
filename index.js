@@ -8,7 +8,7 @@ const port = 5000;
 
 // middleware
 app.use('/user',UserRouter);
-app.use('/product')
+// app.use('/product')
 
 // routes
 app.get('/', (req, res) => {
